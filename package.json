@@ -1,7 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start-mobile": "HOST=192.168.1.79 PORT=3000 react-scripts start",
+    "start-web": "HOST=192.168.1.79 PORT=3000 react-scripts start",
     "build-web": "react-scripts build",
     "start": "node server.js",
     "android": "expo start --android",
