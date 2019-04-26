@@ -1,0 +1,5 @@
+notes on this project
+
+atomic design:
+-atoms and molecules dont contain business logic, only organisms do
+
