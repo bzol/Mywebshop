@@ -32,7 +32,7 @@ function AddProductBoxes(allProducts) {
     for (let j = 0; j < numberOfColumns; i++, j++)
       productRow.push(addBoxToProductBoxes(allProducts, i, j));
     productBoxes.push(<Flex flexWrap="wrap">{productRow}</Flex>);
-  }
+  }  
   return productBoxes;
 }
 
