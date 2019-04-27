@@ -3,7 +3,7 @@
   "scripts": {
     "start-web": "HOST=192.168.1.79 PORT=3000 react-scripts start",
     "build-web": "react-scripts build",
-    "start": "node server.js",
+    "start": "PORT=80 react-scripts start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject"
